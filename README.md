@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
+  </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br>
 
-## Available Scripts
+# Sistema de finança pessoal com React
 
-In the project directory, you can run:
+## 🚀 Tecnologias
 
-### `yarn start`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5) 
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
+- [React Native](https://reactnative.dev/) 
+- [Yarn](https://yarnpkg.com/) 
+- [NPM](https://www.npmjs.com/) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+## 💻 Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Um sistema finança pessoal em React.
 
-### `yarn build`
+Canal [Bonieky Lacerda](https://www.youtube.com/watch?v=_hytKpMc04E)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img alt="game" src=".github/project.PNG">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Rodar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone o projeto.
+- Entre na pasta do projeto e rode npm install.
+- "npm start".
 
-### `yarn eject`
+## 🤔 Como contribuir
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📝 Licença
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Esse projeto está sob a licença MIT.
