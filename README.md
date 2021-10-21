@@ -7,7 +7,7 @@
 
 <br>
 
-# Sistema de finança pessoal com React
+# Galeria de fotos com React
 
 ## 🚀 Tecnologias
 
@@ -23,9 +23,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Um sistema finança pessoal em React.
+Uma galeria de fotos em React.
 
-Canal [Bonieky Lacerda](https://www.youtube.com/watch?v=_hytKpMc04E)
+Canal [Bonieky Lacerda](https://www.youtube.com/watch?v=ss4BXa-WfgI)
+
+É preciso criar uma conta no firebase e configura o env.example. Renomeie o arquivo env.exemple para env.local e preencha a seguintes variaves com os dados da sua conta: 
+
+```
+REACT_APP_FIREBASE_APIKEY=
+REACT_APP_FIREBASE_AUTODOMAIN=
+REACT_APP_FIREBASE_PROJECTID=
+REACT_APP_FIREBASE_STORAGEBUCKET=
+REACT_APP_FIREBASE_SENDERID=
+REACT_APP_FIREBASE_APPID=
+```
 
 <p align="center">
   <img alt="game" src=".github/project.PNG">
