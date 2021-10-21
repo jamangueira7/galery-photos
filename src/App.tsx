@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import * as Components from './App.styles';
 import * as Photos from './service/photos';
 import { Photo } from './types/Photo';
+import { PhotoItem } from './components/PhotoItem';
 
 const App = () => {
     const [loading, setLoading] = useState(false);
@@ -29,7 +30,7 @@ const App = () => {
           {!loading && photos.length > 0 &&
               <Components.PhotoList>
                   {photos.map((item, index) => (
-                    <div>{item.name}</div>
+                    <PhotoItem key={index} url={item.url} name={item.name}/>
                   ))}
               </Components.PhotoList>
           }
