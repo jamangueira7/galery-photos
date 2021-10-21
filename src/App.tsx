@@ -10,14 +10,14 @@ const App = () => {
     const [photos, setPhotos] = useState<Photo[]>([]);
 
     useEffect(() => {
-        const getPhotos = async () => {
-            setLoading(true);
-            setPhotos(await Photos.getAll());
-            setLoading(false);
-        };
-
         getPhotos();
     }, []);
+
+    const getPhotos = async () => {
+        setLoading(true);
+        setPhotos(await Photos.getAll());
+        setLoading(false);
+    };
 
     const handleFormSubmit = async (e: FormEvent<HTMLFormElement> ) => {
         e.preventDefault();
@@ -37,6 +37,11 @@ const App = () => {
                 setPhotos(newPhotoList);
             }
         }
+    }
+
+    const handleDeleteClick = async (name: string) => {
+        await Photos.deletePhoto(name);
+        getPhotos();
     }
 
     return (
@@ -59,7 +64,12 @@ const App = () => {
               {!loading && photos.length > 0 &&
                   <Components.PhotoList>
                       {photos.map((item, index) => (
-                        <PhotoItem key={index} url={item.url} name={item.name}/>
+                        <PhotoItem
+                            key={index}
+                            url={item.url}
+                            name={item.name}
+                            onDelete={handleDeleteClick}
+                        />
                       ))}
                   </Components.PhotoList>
               }
